@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                <img src="pokebola.png" alt="Logo" class="pokeball-icon"> 
+                Pokedex
+            </h1>  
+        </header>
+    
+        <section>
+            <p>Welcome to the Pokedex! Explore the world of Pokemon and catch 'em all!</p>
+        </section>
+
+        <div id="user-input">
+            <label for="pokemonIndex">Índice do Pokémon:</label>
+            <input type="number" id="pokemonIndex" name="pokemonIndex" min="1" max="898">
+            <button onclick="getIndexAndRender()">Obter Pokémon</button>
+            <label for="numPokemons">Quantidade de Pokémon:</label>
+            <input type="number" id="numPokemons" name="numPokemons" min="1" max="100">
+            <button onclick="getPokemonsAndRender()">Obter Pokémon</button>
+        </div>
+        
+        <section id="pokedex-section">
+           
+        </section>
+        
+    
+        <footer>
+            &copy; 2023 Pokedex. Todos os direitos reservados.
+        </footer>  
+
+
+<script src="script.js"></script>
+
+
+    </body>
+
+    
+</html>
